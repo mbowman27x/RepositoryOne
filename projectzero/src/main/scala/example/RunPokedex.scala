@@ -141,7 +141,7 @@ object RunPokedex {
                                                                 collection.find(equal("id", num)).printResults()
                                                     case 2 => println("Enter a value to replace the current value of Name")
                                                                 newValue2 = scala.io.StdIn.readLine
-                                                                collection.updateOne(equal("id", num), set("name.english", newValue)).printResults()
+                                                                collection.updateOne(equal("id", num), set("name.english", newValue2)).printResults()
                                                                 collection.find(equal("id", num)).printResults()
                                                     case 3 => println("Enter a value to replace the current value of HP")
                                                                 newValue = scala.io.StdIn.readInt
@@ -180,7 +180,7 @@ object RunPokedex {
                                                                 collection.updateOne(equal("name.english", name), set("id", newValue)).printResults()
                                                     case 2 => println("Enter a value to replace the current value of Name")
                                                                 newValue2 = scala.io.StdIn.readLine
-                                                                collection.updateOne(equal("name.english", name), set("name.english", newValue)).printResults()
+                                                                collection.updateOne(equal("name.english", name), set("name.english", newValue2)).printResults()
                                                     case 3 => println("Enter a value to replace the current value of HP")
                                                                 newValue = scala.io.StdIn.readInt
                                                                 collection.updateOne(equal("name.english", name), set("base.HP", newValue)).printResults()

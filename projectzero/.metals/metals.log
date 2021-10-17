@@ -23850,3 +23850,822 @@ java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%
 [0m2021.10.17 00:06:38 INFO  time: indexed workspace in 5.12s[0m
 [0m2021.10.17 00:06:38 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\resources\extraCode.scala[0m
 [0m2021.10.17 00:06:39 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.17 01:51:22 INFO  shutting down Metals[0m
+[0m2021.10.17 01:51:22 INFO  Shut down connection with build server.[0m
+[0m2021.10.17 01:51:22 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 11:28:25 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.17 11:28:27 INFO  time: initialize in 1.71s[0m
+[0m2021.10.17 11:28:27 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.17 11:28:27 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala[0m
+[0m2021.10.17 11:28:27 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\resources\extraCode.scala[0m
+[0m2021.10.17 11:28:27 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22047'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.17 11:28:31 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Oct 17, 2021 11:28:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 11:28:33 INFO  time: code lens generation in 4.33s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\.bloop\root-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\.bloop\root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from 'C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22047...
+The server is listening for incoming connections at tcp://127.0.0.1:22047...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Oct 17, 2021 11:28:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 11:28:33 INFO  time: code lens generation in 4.78s[0m
+Oct 17, 2021 11:28:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 11:28:34 INFO  time: code lens generation in 6.1s[0m
+[0m2021.10.17 11:28:34 INFO  time: code lens generation in 6.1s[0m
+[0m2021.10.17 11:28:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 11:28:33 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20811'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20811...
+The server is listening for incoming connections at tcp://127.0.0.1:20811...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 11:28:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 11:28:34 INFO  time: Connected to build server in 7.33s[0m
+[0m2021.10.17 11:28:34 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.17 11:28:37 INFO  time: indexed workspace in 2.23s[0m
+[0m2021.10.17 11:28:37 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\resources\extraCode.scala[0m
+[0m2021.10.17 11:28:38 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+Oct 17, 2021 11:28:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1634484517872,
+    "message": "Compiled \u0027root\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/?id\u003droot"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/.bloop/root/bloop-bsp-clients-classes/classes-Metals-YP3wNV3wRqyzg8faSmFFdQ\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:231)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:231)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:230)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:230)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:402)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:165)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:164)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:164)
+	... 16 more
+
+[0m2021.10.17 13:09:15 INFO  shutting down Metals[0m
+[0m2021.10.17 13:09:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 13:09:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 13:35:49 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.17 13:35:51 INFO  time: initialize in 1.61s[0m
+[0m2021.10.17 13:35:51 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.17 13:35:51 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala[0m
+Starting the bsp launcher for bloop...
+[0m2021.10.17 13:35:51 INFO  skipping build import with status 'Installed'[0m
+Opening a bsp server connection with 'bsp --protocol tcp --port 27247'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:27247...
+The server is listening for incoming connections at tcp://127.0.0.1:27247...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:35:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:35:52 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40766'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40766...
+The server is listening for incoming connections at tcp://127.0.0.1:40766...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:35:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:35:53 INFO  time: Connected to build server in 1.77s[0m
+[0m2021.10.17 13:35:53 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.17 13:35:54 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.17 13:35:56 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 17, 2021 1:35:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 13:35:57 INFO  time: code lens generation in 5.03s[0m
+Oct 17, 2021 1:35:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 13:35:58 INFO  time: code lens generation in 5.62s[0m
+[0m2021.10.17 13:36:00 INFO  time: indexed workspace in 5.25s[0m
+[0m2021.10.17 13:36:01 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+Oct 17, 2021 1:36:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1634492160405,
+    "message": "Compiled \u0027root\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/?id\u003droot"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/.bloop/root/bloop-bsp-clients-classes/classes-Metals-pLfLiH_0TMWaCpOBtFplMQ\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:231)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:231)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:230)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:230)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:402)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:165)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:164)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:164)
+	... 16 more
+
+[0m2021.10.17 13:38:39 INFO  compiling root (1 scala source)[0m
+[0m2021.10.17 13:38:42 WARN  failed to generate semanticdb for C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala:
+java.lang.RuntimeException: ambiguous mend C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala@1097..1097  C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:52)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:401)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1519)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1503)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1495)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1630)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:148)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:123)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:252)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:121)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:94)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:141)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[0m
+[0m2021.10.17 13:38:43 WARN  3 deprecations (since 2.13.0)[0m
+[0m2021.10.17 13:38:43 WARN  32 deprecations (since 2.13.3)[0m
+[0m2021.10.17 13:38:43 WARN  35 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.17 13:38:43 INFO  time: compiled root in 4.25s[0m
+[0m2021.10.17 13:38:48 INFO  compiling root (1 scala source)[0m
+[0m2021.10.17 13:38:50 WARN  failed to generate semanticdb for C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala:
+java.lang.RuntimeException: ambiguous mend C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala@1097..1097  C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:52)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:401)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1519)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1503)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1495)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1630)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:148)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:123)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:252)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:121)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:94)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:141)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[0m
+[0m2021.10.17 13:38:50 WARN  3 deprecations (since 2.13.0)[0m
+[0m2021.10.17 13:38:50 WARN  32 deprecations (since 2.13.3)[0m
+[0m2021.10.17 13:38:50 WARN  35 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.17 13:38:50 INFO  time: compiled root in 2.29s[0m
+[0m2021.10.17 13:39:51 INFO  shutting down Metals[0m
+[0m2021.10.17 13:39:52 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 13:39:52 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 13:40:03 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.17 13:40:04 INFO  time: initialize in 1.51s[0m
+[0m2021.10.17 13:40:04 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.17 13:40:04 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala[0m
+[0m2021.10.17 13:40:04 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37920'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37920...
+The server is listening for incoming connections at tcp://127.0.0.1:37920...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:40:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:40:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31253'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31253...
+The server is listening for incoming connections at tcp://127.0.0.1:31253...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:40:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:40:06 INFO  time: Connected to build server in 1.52s[0m
+[0m2021.10.17 13:40:06 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.17 13:40:07 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.17 13:40:09 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 17, 2021 1:40:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 13:40:11 INFO  time: code lens generation in 5.33s[0m
+Oct 17, 2021 1:40:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 13:40:11 INFO  time: code lens generation in 5.73s[0m
+[0m2021.10.17 13:40:13 INFO  time: indexed workspace in 5.49s[0m
+[0m2021.10.17 13:40:14 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.17 13:41:41 INFO  shutting down Metals[0m
+[0m2021.10.17 13:41:41 INFO  Shut down connection with build server.[0m
+[0m2021.10.17 13:41:41 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.10.17 13:42:15 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.17 13:42:17 INFO  time: initialize in 1.51s[0m
+[0m2021.10.17 13:42:17 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.17 13:42:17 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\mongoDB-demo.scala[0m
+Starting the bsp launcher for bloop...
+[0m2021.10.17 13:42:17 INFO  skipping build import with status 'Installed'[0m
+Opening a bsp server connection with 'bsp --protocol tcp --port 32798'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32798...
+The server is listening for incoming connections at tcp://127.0.0.1:32798...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:42:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:42:18 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16230'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16230...
+The server is listening for incoming connections at tcp://127.0.0.1:16230...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:42:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:42:19 INFO  time: Connected to build server in 1.44s[0m
+[0m2021.10.17 13:42:19 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.17 13:42:20 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.17 13:42:22 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.17 13:42:24 INFO  time: code lens generation in 5.42s[0m
+[0m2021.10.17 13:42:24 INFO  time: code lens generation in 5.42s[0m
+[0m2021.10.17 13:42:26 INFO  time: indexed workspace in 5.08s[0m
+[0m2021.10.17 13:42:27 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+Oct 17, 2021 1:42:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1634492546194,
+    "message": "Compiled \u0027root\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/?id\u003droot"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/.bloop/root/bloop-bsp-clients-classes/classes-Metals-hwZOX5MZQv6VykhhzBeaNA\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:231)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:231)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:230)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:230)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:402)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:165)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:164)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:164)
+	... 16 more
+
+[0m2021.10.17 13:44:20 INFO  shutting down Metals[0m
+[0m2021.10.17 13:44:20 INFO  Shut down connection with build server.[0m
+[0m2021.10.17 13:44:20 No more data in the server stdin, exiting...INFO  
+Shut down connection with build server.[0mNo more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 13:44:31 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.17 13:44:33 INFO  time: initialize in 1.54s[0m
+[0m2021.10.17 13:44:33 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.17 13:44:33 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\scala\example\RunPokedex.scala[0m
+Starting the bsp launcher for bloop...
+[0m2021.10.17 13:44:33 INFO  skipping build import with status 'Installed'[0m
+Opening a bsp server connection with 'bsp --protocol tcp --port 13187'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13187...
+The server is listening for incoming connections at tcp://127.0.0.1:13187...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:44:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:44:34 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13480'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13480...
+The server is listening for incoming connections at tcp://127.0.0.1:13480...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 13:44:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 13:44:35 INFO  time: Connected to build server in 1.45s[0m
+[0m2021.10.17 13:44:35 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.17 13:44:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.17 13:44:37 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 17, 2021 1:44:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 13:44:39 INFO  time: code lens generation in 5.02s[0m
+Oct 17, 2021 1:44:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1097..1097  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FprojectZeroFolder%2Fprojectzero%2Fsrc%2Fmain%2Fscala%2Fexample%2FRunPokedex.scala@1081..1097 createDocObserve
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 13:44:40 INFO  time: code lens generation in 5.39s[0m
+[0m2021.10.17 13:44:42 INFO  time: indexed workspace in 5.26s[0m
+[0m2021.10.17 13:44:43 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+Oct 17, 2021 1:44:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1634492682170,
+    "message": "Compiled \u0027root\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/?id\u003droot"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/.bloop/root/bloop-bsp-clients-classes/classes-Metals-immFYqwnRj-VJwhvjWugOg\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/18284/Desktop/Training%20Program/projectZeroFolder/projectzero/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:231)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:231)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:230)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:230)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:402)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:165)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:164)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:164)
+	... 16 more
+
+[0m2021.10.17 13:46:01 WARN  no build target for: C:\Users\18284\Desktop\Training Program\projectZeroFolder\projectzero\src\main\resources\extraCode.scala[0m
+Oct 17, 2021 1:47:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+[0m2021.10.17 13:47:44 INFO  shutting down Metals[0m
+[0m2021.10.17 13:47:44 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.10.17 13:47:44 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
