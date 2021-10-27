@@ -1,0 +1,12 @@
+Matthew Bowman
+
+I will be using Yahoo Finance API to track Stock Market Data. I would like to know 
+what current stocks are popular and how they perform on a day to day basis.
+
+I will be using Hive
+	- What is the highest gaining stock of the day
+	- What is the highest gaining stock of the week
+	- What is the highest volume traded stock of the day
+	- What is the highest volume traded stock of the week
+	- What is the top trending stock of the day
+	- What is the top trending stock of the week
