@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(8a3c639b-fd93-4a86-8149-3b9e9e4d1173), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@72e75786, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 deprecations (since 2.13.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m16 deprecations (since 2.13.3)[0m
+[0m[[0m[33mwarn[0m] [0m[0m22 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed Oct 28, 2021, 5:02:49 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
