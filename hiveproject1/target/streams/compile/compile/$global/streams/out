@@ -1,0 +1,14 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\HiveScala.scala:3:16: imported `LoginScreen' is permanently hidden by definition of object LoginScreen in package example[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport example.LoginScreen[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\LoginScreen.scala:5:8: object Users is not a member of package example[0m
+[0m[[0m[31merror[0m] [0m[0mimport example.Users[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\LoginScreen.scala:58:34: not found: type User[0m
+[0m[[0m[31merror[0m] [0m[0m        val user+userCount = new User[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\LoginScreen.scala:58:17: not found: value +[0m
+[0m[[0m[31merror[0m] [0m[0m        val user+userCount = new User[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

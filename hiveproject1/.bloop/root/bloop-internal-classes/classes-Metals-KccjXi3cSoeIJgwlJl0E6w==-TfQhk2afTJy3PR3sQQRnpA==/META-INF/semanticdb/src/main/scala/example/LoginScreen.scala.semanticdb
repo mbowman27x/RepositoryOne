@@ -1,0 +1,8 @@
+
+¼(src/main/scala/example/LoginScreen.scala:Î
+ @¿patterns after a variable pattern cannot match (SLS 8.1.1)
+If you intended to match against variable administrator in object LoginScreen, you must use backticks, like: case `administrator` =>:Ç
+ 8¸unreachable code due to variable pattern 'administrator' on line 16
+If you intended to match against variable user1 in object LoginScreen, you must use backticks, like: case `user1` =>:Q
+ !Cunreachable code due to variable pattern 'administrator' on line 16:
+ 8unreachable codeP
