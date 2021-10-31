@@ -6,38 +6,39 @@
         "workspaceDir": "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1",
         "sources": [
             "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\src\\main\\scala",
-            "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\src\\main\\scala-2.13",
+            "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\src\\main\\scala-2.11",
             "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\src\\main\\scala-2",
             "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\src\\main\\java",
-            "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\target\\scala-2.13\\src_managed\\main"
+            "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\target\\scala-2.11\\src_managed\\main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+            "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.8\\scala-library-2.11.8.jar"
         ],
         "out": "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\.bloop\\root",
-        "classesDir": "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\.bloop\\root\\scala-2.13\\classes",
+        "classesDir": "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\.bloop\\root\\scala-2.11\\classes",
         "resources": [
             "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\src\\main\\resources",
-            "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\target\\scala-2.13\\resource_managed\\main"
+            "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\target\\scala-2.11\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.13.6",
+            "version": "2.11.8",
             "options": [
                 
             ],
             "jars": [
-                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
-                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.6\\scala-compiler-2.13.6.jar",
-                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar",
-                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.19.0\\jline-3.19.0.jar",
-                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.3.1\\jna-5.3.1.jar"
+                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.8\\scala-library-2.11.8.jar",
+                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.11.8\\scala-compiler-2.11.8.jar",
+                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.8\\scala-reflect-2.11.8.jar",
+                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.4\\scala-xml_2.11-1.0.4.jar",
+                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4.jar",
+                "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.12.1\\jline-2.12.1.jar"
             ],
-            "analysis": "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
+            "analysis": "C:\\Users\\18284\\Desktop\\Training Program\\Week 4\\hiveproject1\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.11.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -113,34 +114,34 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.13.6",
+                    "version": "2.11.8",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.8\\scala-library-2.11.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6-sources.jar"
+                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.8\\scala-library-2.11.8-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.13.6",
+                    "version": "2.11.8",
                     "configurations": "optional",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.8\\scala-library-2.11.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6-sources.jar"
+                            "path": "C:\\Users\\18284\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.8\\scala-library-2.11.8-sources.jar"
                         }
                     ]
                 }

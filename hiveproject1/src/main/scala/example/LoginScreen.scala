@@ -11,9 +11,9 @@ object LoginScreen {
     var currentUser = ""
 
     def options{
-        var optionSeq: Seq[String] = Seq("1: Stock Application", "2: User Options")
+        var optionSeq: List[String] = List("1: Stock Application", "2: User Options", "3: Exit Application")
         println("Please select an option")
-
+        
         for(x <- optionSeq){
             println(x)
         }
@@ -26,6 +26,9 @@ object LoginScreen {
                             StockApplication.stocks
                         }
             case 2 => userOptions
+            case 3 => println("You have exited the Application")
+                        println("Enter any key to wake the machine back up")
+                        var reboot = scala.io.StdIn.readLine
             case _ => println("Enter a valid number")
                         options
         }
@@ -46,6 +49,7 @@ object LoginScreen {
             case 2 => updateUser
             case 3 => displayUsers
             case 4 => exitUserOptions
+                        options
             case _ => println("Enter a valid number")
                         userOptions
         }

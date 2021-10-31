@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(package, Some(4222e5a4-97af-4502-ad61-6309654d876b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / package[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6b4fd7d, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\target\scala-2.11\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\HiveScala.scala:3:16: imported `LoginScreen' is permanently hidden by definition of object LoginScreen in package example[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport example.LoginScreen[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\HiveScala.scala:4:16: imported `StockApplication' is permanently hidden by definition of object StockApplication in package example[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport example.StockApplication[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:37:22: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m                case ex => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:28:18: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m            case ex => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Oct 28, 2021, 11:47:43 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
