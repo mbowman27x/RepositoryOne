@@ -5,7 +5,7 @@ import example.StockApplication
 
 object HiveScala {
     def main (args: Array[String]) {
-        println("Hello, welcome to Stock Market Application")
+        println("Hello, welcome to the Alpha Vantage API Application!")
         println("Login to continue")
         LoginScreen.loginUser
         

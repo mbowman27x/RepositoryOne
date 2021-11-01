@@ -14,11 +14,9 @@ import java.sql.DriverManager
 
 object StockApplication {
 
-    var symbol = ""
-
     def stocks(): Unit = {
 
-        var stockOptionSeq: Seq[String] = Seq("1: LOAD Stock Data from Alpha Vantage API to HDP", "2: LOAD API Data into Hive", "3: Query API Data via Hive Commands", "4: Return to Main Screen")
+        var stockOptionSeq: Seq[String] = Seq("1: LOAD Stock Data from Alpha Vantage API to HDP", "2: LOAD API Data into Hive", "3: Query API Data", "4: Return to Main Screen")
         println("Select an option")
 
         for(x <- stockOptionSeq){
@@ -29,15 +27,17 @@ object StockApplication {
 
         selection match{
             case 1 => tickerSelection
-            case 2 => hiveConnection
-            case 3 => println("Select a Query")
-                        
+            case 2 => hiveLoad
+            case 3 => hiveQuery
             case 4 => println("You have returned to the Main Screen")
                         LoginScreen.options
             case _ => println("Enter a valid number")
                         stocks
         }
     }
+
+    // stock ticker variable
+    var symbol = ""
 
     def tickerSelection {
         println("Enter Stock Ticker")
@@ -49,57 +49,56 @@ object StockApplication {
     // variables can be changed in the url to retrieve specific data
 
     def getApiData {
-        val url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=" + symbol + "&apikey=4TZZOJKGYN1WMDJ9"
+        val url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=" + symbol + "&datatype=csv&apikey=4TZZOJKGYN1WMDJ9"
         val result = scala.io.Source.fromURL(url).mkString
-        println(result)
+        println("Retrieving Data from API Pipeline...")
 
         moveDataToHDP(result)
+        println(result)
     }
 
     // passes in result as parameter and writes the json data as a new file into specified HDP directory
     
-    def moveDataToHDP(jsonData: String): Unit = {
-        val filePathHDP = "/tmp/dataFolder/stockData.json"
+    def moveDataToHDP(csv: String): Unit = {
+        val filePathHDP = "/tmp/dataFolder/stockData.csv"
         val writer = new PrintWriter(new File(filePathHDP))
-        writer.write(jsonData)
+        writer.write(csv)
         writer.close()
 
-        println("File moved to HDP " + filePathHDP)
+        println("File created in HDP Path: " + filePathHDP)
     }
 
-    def hiveConnection {
-        var con: java.sql.Connection = null
+    def hiveLoad {
+        var connection: java.sql.Connection = null
 
         try{
         var driverName = "org.apache.hive.jdbc.HiveDriver"
-        val conStr = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/project1_database"
+        val connectionString = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/project1_database"
 
         Class.forName(driverName)
-        con = DriverManager.getConnection(conStr, "", "")
-        val stmt = con.createStatement()
+        connection = DriverManager.getConnection(connectionString, "", "")
+        val statement = connection.createStatement()
 
         var hiveCommand = ""
-        // stmt.execute(hiveCommand)
+        // statement.execute(hiveCommand)      <- this is for executing hive commands
         
-        println("How would you like to interact with Hive?")
-        println("1: Create Table")
-        println("2: Load Data into Table")
+        println("Enter 1 to create Table")
 
         val hiveSelection = scala.io.StdIn.readInt
 
         hiveSelection match{
-            case 1 => println("Type in a name for the new table")
+            case 1 =>   println("Type in a name for the new table")
                         val newTable = scala.io.StdIn.readLine
-                        hiveCommand = "CREATE TABLE IF NOT EXISTS " + newTable + "(json String)"
-                        stmt.execute(hiveCommand)
+                        hiveCommand = "CREATE TABLE " + newTable + "(time String, open String, high String, low String, close String, volume String) row format delimited fields terminated by ','"
+                        statement.execute(hiveCommand)
                         println(newTable + " Table created")
 
-            case 2 => println("Specify a Table destination")
-                        println("Enter Table Name")
-                        val table = scala.io.StdIn.readLine
-                        hiveCommand = "LOAD DATA LOCAL INPATH '/tmp/dataFolder/stockData.json' INTO TABLE " + table
-                        stmt.execute(hiveCommand)
-                        println("Data loaded into table successfully")
+                        println("LOAD DATA LOCAL INPATH '/tmp/dataFolder/stockData.csv' INTO TABLE " + newTable)
+                        hiveCommand = "LOAD DATA LOCAL INPATH '/tmp/dataFolder/stockData.csv' INTO TABLE " + newTable
+                        statement.execute(hiveCommand)
+                        println("Data loaded into Table successfully")
+
+            case _ =>   println("Invalid: Returning to Selections")
         }
 
         }catch {
@@ -109,8 +108,68 @@ object StockApplication {
             }
         }finally {
             try {
-                if (con != null)
-                con.close();
+                if (connection != null)
+                connection.close();
+            } catch {
+                case ex => {
+                ex.printStackTrace();
+                throw new Exception(s"${ex.getMessage}")
+                }
+            }
+        }
+    }
+
+    def hiveQuery {
+        var connection: java.sql.Connection = null
+
+        try{
+        var driverName = "org.apache.hive.jdbc.HiveDriver"
+        val connectionString = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/project1_database"
+
+        Class.forName(driverName)
+        connection = DriverManager.getConnection(connectionString, "", "")
+        val statement = connection.createStatement()
+
+        var hiveCommand = ""
+        // statement.execute(hiveCommand)      <- this is for executing hive commands
+        
+        var x = ""
+        // x variable for printing queries in scala
+
+        println("Enter the ticker symbol of an existing Table")
+        var tickerQuery = scala.io.StdIn.readLine
+        println("Select a Query")
+        println("1: Look at most recent performance of " + tickerQuery)
+        println("2: ")
+        println("3: ")
+        println("4: ")
+        println("5: ")
+        println("6: ")
+
+        val querySelection = scala.io.StdIn.readInt
+
+        querySelection match{
+            case 1 =>   println("SELECT * FROM " + tickerQuery + " LIMIT 10")
+                        hiveCommand = "SELECT * FROM " + tickerQuery + " LIMIT 10"
+                        var x = statement.executeQuery(hiveCommand)
+                        while (x.next()){
+                            println(x.getString(1) + "  " + x.getString(3) + "  " + x.getString(4))
+                        }
+            case 2 => println("2: ") 
+            case 3 => println("3: ")            
+            case 4 => println("4: ")
+            case _ => println("Invalid: Returning to Selections")
+        }
+
+        }catch {
+            case ex => {
+                ex.printStackTrace();
+                throw new Exception(s"${ex.getMessage}")
+            }
+        }finally {
+            try {
+                if (connection != null)
+                connection.close();
             } catch {
                 case ex => {
                 ex.printStackTrace();

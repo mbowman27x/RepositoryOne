@@ -11,7 +11,7 @@ object LoginScreen {
     var currentUser = ""
 
     def options{
-        var optionSeq: List[String] = List("1: Stock Application", "2: User Options", "3: Exit Application")
+        var optionSeq: List[String] = List("1: Alpha Vantage API Application", "2: User Options", "3: Exit Application")
         println("Please select an option")
         
         for(x <- optionSeq){
@@ -21,7 +21,7 @@ object LoginScreen {
         var selection = scala.io.StdIn.readInt
 
         selection match{
-            case 1 => println("Welcome to Wallstreet!") 
+            case 1 => println("Welcome to the STREET!") 
                         while(true){
                             StockApplication.stocks
                         }
@@ -35,7 +35,7 @@ object LoginScreen {
     }
 
     def userOptions{
-        var userOptionSeq: Seq[String] = Seq("1: Switch User", "2: Update User", "3: Display Users", "4: Exit User Options")
+        var userOptionSeq: Seq[String] = Seq("1: Switch User", "2: Update User", "3: Display Users", "4: Display Current User", "5: Exit User Options")
         println("Please select a User Option")
         
         for(x <- userOptionSeq){
@@ -48,7 +48,8 @@ object LoginScreen {
             case 1 => loginUser
             case 2 => updateUser
             case 3 => displayUsers
-            case 4 => exitUserOptions
+            case 4 => displayCurrentUser
+            case 5 => exitUserOptions
                         options
             case _ => println("Enter a valid number")
                         userOptions
@@ -64,6 +65,7 @@ object LoginScreen {
             var passwd = scala.io.StdIn.readLine
                 if(passwd == adminPass){
                     println("Welcome " + administrator)
+                    currentUser = administrator
                 }else if(failedAttempts == 2){
                     println("3 Failed Inputs, please contact the nearest Data Engineer")
                     failedAttempts = 0
@@ -78,6 +80,7 @@ object LoginScreen {
             var passwd = scala.io.StdIn.readLine
                 if(passwd == user1Pass){
                     println("Welcome " + user1)
+                    currentUser = user1
                 }else if(failedAttempts == 2){
                     println("3 Failed Inputs, please contact the nearest Data Engineer")
                     failedAttempts = 0
@@ -217,10 +220,14 @@ object LoginScreen {
     }
 
     def displayUsers{
-        println("Here are the Users of this Application:")
+        println("Users of this Application:")
         println(administrator)
         println(user1)
         userOptions
+    }
+
+    def displayCurrentUser{
+        println(currentUser + " is currently logged in")
     }
 
     def exitUserOptions{
