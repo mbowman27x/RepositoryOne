@@ -4,16 +4,16 @@
 [0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\HiveScala.scala:4:16: imported `StockApplication' is permanently hidden by definition of object StockApplication in package example[0m
 [0m[[0m[33mwarn[0m] [0m[0mimport example.StockApplication[0m
 [0m[[0m[33mwarn[0m] [0m[0m               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:114:22: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:121:22: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
 [0m[[0m[33mwarn[0m] [0m[0m                case ex => {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:105:18: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:112:18: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
 [0m[[0m[33mwarn[0m] [0m[0m            case ex => {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:174:22: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:265:22: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
 [0m[[0m[33mwarn[0m] [0m[0m                case ex => {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:165:18: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\18284\Desktop\Training Program\Week 4\hiveproject1\src\main\scala\example\StockApplication.scala:256:18: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
 [0m[[0m[33mwarn[0m] [0m[0m            case ex => {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
