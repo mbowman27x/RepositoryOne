@@ -27,7 +27,8 @@ Project Setup
 Usage
     Open the project in Visual Studio Code or the preferred IDE
     Run the program and you will be presented with a menu of options
-    If you are running the program for the first time, you will want to select the Import option first to LOAD the pokemon dataset into your pokedex. The application requires that you manually type or Copy/Paste the path of the json file into the command line. The default path within this project is :
+    If you are running the program for the first time, you will want to select the Import option first to LOAD the pokemon dataset into your pokedex. The application 
+    requires that you manually type or Copy/Paste the path of the json file into the command line. The default path within this project is :
     projectzero\src\main\resources\pokedex.json
     Now you can enjoy the application and perform some CRUD operations
  
