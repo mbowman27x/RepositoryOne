@@ -53,7 +53,7 @@ object RunPokedex {
 
     def selection{
         println("Select an option")
-        var setOne: SortedSet[String] = SortedSet("1: Query the Pokedex Database", "2: Create a Pokemon", "3: Update an existing Pokemon", "4: Delete a Pokemon", "5: Import a Pokemon") 
+        var setOne: SortedSet[String] = SortedSet("1: Query the Pokedex Database", "2: Create a Pokemon", "3: Update an existing Pokemon", "4: Delete a Pokemon", "5: Import Pokemon") 
         
         for(x <- setOne){
             println(x)
