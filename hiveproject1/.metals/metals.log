@@ -34115,3 +34115,188 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 No more data in the server stdin, exiting...
 No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
+[0m2021.11.30 14:29:24 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1' for client Visual Studio Code 1.62.3.[0m
+[0m2021.11.30 14:29:26 INFO  time: initialize in 1.47s[0m
+[0m2021.11.30 14:29:26 INFO  Attempting to connect to the build server...[0m
+[0m2021.11.30 14:29:26 INFO  skipping build import with status 'Requested'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44040'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.11.30 14:29:30 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\.bloop\root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.8.
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.12.1\jline-2.12.1.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.8\scala-compiler-2.11.8.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.8\scala-reflect-2.11.8.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 2.11.8 projects
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44040...
+The server is listening for incoming connections at tcp://127.0.0.1:44040...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.30 14:29:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.30 14:29:32 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15236'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15236...
+The server is listening for incoming connections at tcp://127.0.0.1:15236...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.30 14:29:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.30 14:29:32 INFO  time: Connected to build server in 6.17s[0m
+[0m2021.11.30 14:29:32 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.30 14:29:33 INFO  time: code lens generation in 5.77s[0m
+[0m2021.11.30 14:29:35 INFO  time: indexed workspace in 2.14s[0m
+[0m2021.11.30 14:29:35 WARN  no build target for: C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\src\main\scala\example\StockApplication.scala[0m
+[0m2021.11.30 14:29:35 WARN  no build target for: C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\src\main\scala\example\StockApplication.scala[0m
+[0m2021.11.30 14:29:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.11.30 14:29:39 INFO  time: code lens generation in 1.3s[0m
+[0m2021.11.30 14:31:58 INFO  shutting down Metals[0m
+[0m2021.11.30 14:31:58 INFO  Shut down connection with build server.[0m
+[0m2021.11.30 14:31:58 INFO No more data in the client stdin, exiting... Shut down connection with build server.
+No more data in the server stdin, exiting...
+[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.12.01 17:45:37 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1' for client Visual Studio Code 1.62.3.[0m
+[0m2021.12.01 17:45:39 INFO  time: initialize in 1.37s[0m
+[0m2021.12.01 17:45:39 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28516'...
+Waiting for the bsp connection to come up...
+[0m2021.12.01 17:45:39 INFO  skipping build import with status 'Requested'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\.bloop\root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.8.
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.12.1\jline-2.12.1.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.8\scala-compiler-2.11.8.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+[0m[32m[D][0m   => C:\Users\18284\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.8\scala-reflect-2.11.8.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 2.11.8 projects
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28516...
+The server is listening for incoming connections at tcp://127.0.0.1:28516...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.01 17:45:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.01 17:45:40 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34913'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34913...
+The server is listening for incoming connections at tcp://127.0.0.1:34913...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.01 17:45:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18284\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.12.01 17:45:40 INFO  time: Connected to build server in 1.29s[0m
+[0m2021.12.01 17:45:40 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.01 17:45:42 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.01 17:45:43 INFO  time: code lens generation in 3.4s[0m
+[0m2021.12.01 17:45:45 INFO  time: indexed workspace in 2.16s[0m
+[0m2021.12.01 17:45:45 WARN  no build target for: C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\src\main\scala\example\StockApplication.scala[0m
+[0m2021.12.01 17:45:46 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Dec 01, 2021 5:45:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Dec 01, 2021 5:45:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.12.01 17:45:47 WARN  no build target for: C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\src\main\scala\example\HiveScala.scala[0m
+[0m2021.12.01 17:45:47 WARN  no build target for: C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\src\main\scala\example\LoginScreen.scala[0m
+Dec 01, 2021 5:45:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@243..243  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@236..243 options
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@243..243  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@236..243 options
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.12.01 17:45:49 INFO  time: code lens generation in 1.96s[0m
+Dec 01, 2021 5:45:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@243..243  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@236..243 options
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@243..243  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@236..243 options
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.12.01 17:45:49 INFO  time: code lens generation in 2.76s[0m
+[0m2021.12.01 17:45:49 INFO  time: code lens generation in 2.76s[0m
+Dec 01, 2021 5:45:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@243..243  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@236..243 options
+java.lang.RuntimeException: ambiguous mend file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@243..243  file%3A%2F%2F%2FC%3A%2FUsers%2F18284%2FDesktop%2FTraining%2520Program%2FRepositoryOne%2Fhiveproject1%2Fsrc%2Fmain%2Fscala%2Fexample%2FLoginScreen.scala@236..243 options
+	at scala.sys.package$.error(package.scala:30)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.indexName(TextDocumentOps.scala:96)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:190)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.transversers.Traverser.apply(Traverser.scala:4)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument$traverser$1$.apply(TextDocumentOps.scala:197)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Dec 01, 2021 5:46:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+[0m2021.12.01 17:46:39 WARN  no build target for: C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\src\main\scala\example\StockApplication.scala[0m
+[0m2021.12.01 17:56:02 WARN  no build target for: C:\Users\18284\Desktop\Training Program\RepositoryOne\hiveproject1\src\main\scala\example\StockApplication.scala[0m
