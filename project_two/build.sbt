@@ -1,0 +1,29 @@
+import Dependencies._
+
+ThisBuild / scalaVersion     := "2.11.8"
+ThisBuild / version          := "0.1.0-SNAPSHOT"
+ThisBuild / organization     := "com.revature"
+ThisBuild / organizationName := "synergy"
+
+lazy val root = (
+  project in file(".")
+).settings(
+  assembly / mainClass := Some("app.cli.Cli"),
+  assembly / assemblyJarName := "project2.jar",
+  name := "project2",
+  libraryDependencies ++= Seq(
+    spark,
+    sparkSql,
+    nscalaTime,
+    json4s,
+    log4jCore,
+    log4jApi,
+    log4jScala,
+    scalaTest % Test
+  )
+)
+
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case x => MergeStrategy.first
+}
